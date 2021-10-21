@@ -1,0 +1,27 @@
+
+// Define the bootstrap variable overrides    
+$primary:               #ffffff !default;
+$link-color:            #000000;
+$link-hover-color:      #cccccc;
+$link-hover-decoration: none !default;  
+$enable-rounded:        false;
+$card-cap-bg:           #ffffff;
+$card-bg:               #F1F1F1;
+
+// include all of the bootstrap css
+// @import "node_modules/bootstrap/scss/bootstrap.scss"; 
+
+
+// include all of the bootstrap css
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/variables";   
+@import "node_modules/bootstrap/scss/card";
+@import "node_modules/bootstrap/scss/buttons";
+
+
+
+// include the site level css
+@import "./site.scss";
+
+
